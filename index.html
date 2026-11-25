@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PetEye - Privacy Policy / Política de privacidad</title>
+<style>
+:root{--teal:#1D9E75;--dark:#04342C;--bg:#f4faf8;--ink:#1c2b27}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Segoe UI",system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:var(--ink);background:var(--bg)}
+header{background:var(--teal);color:#fff;padding:28px 20px}
+header div{max-width:760px;margin:0 auto}
+header h1{margin:0 0 6px;font-size:1.8rem}
+header p{margin:0;opacity:.92}
+nav a{display:inline-block;margin:12px 10px 0 0;padding:6px 14px;border-radius:999px;background:#fff;color:var(--dark);text-decoration:none;font-weight:600;font-size:.9rem}
+main{max-width:760px;margin:0 auto;padding:12px 20px 48px}
+section{padding-top:20px}
+h2{color:var(--dark);border-bottom:2px solid var(--teal);padding-bottom:6px;margin-top:32px}
+h3{color:var(--dark);margin-bottom:4px}
+a{color:#0b6b50}
+ul{padding-left:22px}
+li{margin:4px 0}
+footer{text-align:center;font-size:.85rem;color:#52645f;padding:0 20px 32px}
+</style>
+</head>
+<body>
+<header><div>
+<h1>PetEye</h1>
+<p>Privacy Policy &middot; Pol&iacute;tica de privacidad</p>
+<nav><a href="#en">English</a><a href="#es">Espa&ntilde;ol</a><a href="#deletion">Data deletion / Eliminaci&oacute;n de datos</a></nav>
+</div></header>
+<main>
+
+<section id="en" lang="en">
+<h2>Privacy Policy (English)</h2>
+<p><strong>Last updated: 25 November 2026</strong></p>
+<p>PetEye (package <code>com.enjoyyourtime.peteye</code>) is an Android app by <strong>Enjoy your Time</strong> that turns old phones into pet cameras. This policy explains what data the app handles and why.</p>
+
+<h3>1. No accounts</h3>
+<p>PetEye has no user accounts and no login. The app stores locally on your device: a random Home ID, a random device ID, the device name you choose, the role of the device (camera or viewer) and your settings.</p>
+
+<h3>2. Connection coordination (Firebase)</h3>
+<p>We use Google Firebase Realtime Database (Google LLC, servers in the EU) only to coordinate connections between your devices. It stores:</p>
+<ul>
+<li>For each camera: the device name you gave it, phone model, app version, battery level, charging state and last-online time.</li>
+<li>Camera settings written by viewers: quality, front/back camera and rotation.</li>
+<li>Connection setup messages (WebRTC SDP and ICE candidates, which contain IP addresses). They are stored temporarily and deleted when the session ends.</li>
+<li>Pairing codes, which expire after 15 minutes.</li>
+</ul>
+
+<h3>3. Video and audio</h3>
+<p>Video and audio travel directly between your devices (peer-to-peer) and are end-to-end encrypted (DTLS-SRTP). We never record or store them. If a direct connection is not possible, the encrypted stream may be relayed through a TURN server, which cannot decrypt it and does not store it. Snapshots are saved only on the viewer's own device.</p>
+
+<h3>4. Advertising</h3>
+<p>On viewer devices running Android 7.0 or later, the app shows banner ads using Google AdMob, unless you purchased "Remove ads". AdMob may collect the advertising ID, IP address / approximate location, device information and ad interaction data for advertising, analytics and fraud prevention. Where required (EEA, UK, Switzerland, some US states), consent is requested through Google's User Messaging Platform. You can change your choice at any time in the app settings ("Privacy options"). More information: <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">https://policies.google.com/technologies/partner-sites</a>.</p>
+
+<h3>5. Purchases</h3>
+<p>Purchases are processed by Google Play. The app only keeps the purchase state locally on your device.</p>
+
+<h3>6. Permissions</h3>
+<ul>
+<li><strong>Camera and microphone:</strong> used only in Camera mode and when the viewer presses Talk.</li>
+<li><strong>Notifications:</strong> to show the status of the camera service.</li>
+<li><strong>Start at boot:</strong> optional automatic restart of Camera mode.</li>
+<li><strong>Storage (Android 9 and lower only):</strong> to save snapshots.</li>
+</ul>
+
+<h3>7. Children</h3>
+<p>PetEye is not directed to children under 13 and we do not knowingly collect their data.</p>
+
+<h3>8. Security</h3>
+<p>All network traffic uses TLS/DTLS encryption.</p>
+
+<h3 id="deletion">9. Data deletion</h3>
+<ul>
+<li>"Leave this home" or "Remove camera" in the app deletes that device's data from the database immediately.</li>
+<li>Uninstalling the app removes all local data.</li>
+<li>You can also email <a href="mailto:enjoyyourtime.online@gmail.com">enjoyyourtime.online@gmail.com</a> to request deletion; we answer within 30 days.</li>
+</ul>
+
+<h3>10. Changes</h3>
+<p>Changes to this policy will be posted on this page.</p>
+
+<h3>11. Contact</h3>
+<p>Enjoy your Time &mdash; <a href="mailto:enjoyyourtime.online@gmail.com">enjoyyourtime.online@gmail.com</a></p>
+<p><a href="#es">Leer en espa&ntilde;ol &darr;</a></p>
+</section>
+
+<section id="es" lang="es">
+<h2>Pol&iacute;tica de privacidad (Espa&ntilde;ol)</h2>
+<p><strong>&Uacute;ltima actualizaci&oacute;n: 25 de noviembre de 2026</strong></p>
+<p>PetEye (paquete <code>com.enjoyyourtime.peteye</code>) es una aplicaci&oacute;n Android de <strong>Enjoy your Time</strong> que convierte m&oacute;viles viejos en c&aacute;maras para mascotas. Esta pol&iacute;tica explica qu&eacute; datos gestiona la app y para qu&eacute;.</p>
+
+<h3>1. Sin cuentas</h3>
+<p>PetEye no tiene cuentas de usuario ni inicio de sesi&oacute;n. La app guarda localmente en tu dispositivo: un ID de casa aleatorio, un ID de dispositivo aleatorio, el nombre del dispositivo que t&uacute; elijas, el rol (c&aacute;mara o visor) y tus ajustes.</p>
+
+<h3>2. Coordinaci&oacute;n de conexiones (Firebase)</h3>
+<p>Usamos Google Firebase Realtime Database (Google LLC, servidores en la UE) &uacute;nicamente para coordinar las conexiones entre tus dispositivos. Almacena:</p>
+<ul>
+<li>De cada c&aacute;mara: el nombre que le diste, el modelo de tel&eacute;fono, la versi&oacute;n de la app, el nivel de bater&iacute;a, el estado de carga y la hora de &uacute;ltima conexi&oacute;n.</li>
+<li>Los ajustes de c&aacute;mara escritos por los visores: calidad, c&aacute;mara frontal/trasera y rotaci&oacute;n.</li>
+<li>Mensajes de establecimiento de conexi&oacute;n (WebRTC SDP y candidatos ICE, que contienen direcciones IP). Se guardan temporalmente y se eliminan al terminar la sesi&oacute;n.</li>
+<li>C&oacute;digos de emparejamiento, que caducan a los 15 minutos.</li>
+</ul>
+
+<h3>3. V&iacute;deo y audio</h3>
+<p>El v&iacute;deo y el audio viajan directamente entre tus dispositivos (peer-to-peer) y est&aacute;n cifrados de extremo a extremo (DTLS-SRTP). Nunca los grabamos ni los almacenamos. Si no es posible una conexi&oacute;n directa, el flujo cifrado puede retransmitirse a trav&eacute;s de un servidor TURN, que no puede descifrarlo ni lo almacena. Las capturas se guardan solo en el propio dispositivo visor.</p>
+
+<h3>4. Publicidad</h3>
+<p>En los dispositivos visores con Android 7.0 o superior, la app muestra banners con Google AdMob, salvo que hayas comprado "Quitar anuncios". AdMob puede recopilar el ID de publicidad, la direcci&oacute;n IP / ubicaci&oacute;n aproximada, informaci&oacute;n del dispositivo y datos de interacci&oacute;n con los anuncios para publicidad, anal&iacute;tica y prevenci&oacute;n del fraude. Cuando es obligatorio (EEE, Reino Unido, Suiza, algunos estados de EE. UU.), se solicita el consentimiento mediante la User Messaging Platform de Google. Puedes cambiar tu elecci&oacute;n en cualquier momento en los ajustes de la app ("Opciones de privacidad"). M&aacute;s informaci&oacute;n: <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">https://policies.google.com/technologies/partner-sites</a>.</p>
+
+<h3>5. Compras</h3>
+<p>Las compras las procesa Google Play. La app solo conserva el estado de la compra en tu dispositivo.</p>
+
+<h3>6. Permisos</h3>
+<ul>
+<li><strong>C&aacute;mara y micr&oacute;fono:</strong> solo se usan en modo C&aacute;mara y cuando el visor pulsa Hablar.</li>
+<li><strong>Notificaciones:</strong> para mostrar el estado del servicio de c&aacute;mara.</li>
+<li><strong>Inicio al arrancar:</strong> reinicio autom&aacute;tico opcional del modo C&aacute;mara.</li>
+<li><strong>Almacenamiento (solo Android 9 e inferior):</strong> para guardar las capturas.</li>
+</ul>
+
+<h3>7. Menores</h3>
+<p>PetEye no est&aacute; dirigida a menores de 13 a&ntilde;os y no recopilamos sus datos de forma consciente.</p>
+
+<h3>8. Seguridad</h3>
+<p>Todo el tr&aacute;fico de red usa cifrado TLS/DTLS.</p>
+
+<h3 id="eliminacion">9. Eliminaci&oacute;n de datos</h3>
+<ul>
+<li>"Salir de esta casa" o "Eliminar c&aacute;mara" en la app elimina inmediatamente los datos de ese dispositivo de la base de datos.</li>
+<li>Al desinstalar la app se borran todos los datos locales.</li>
+<li>Tambi&eacute;n puedes escribir a <a href="mailto:enjoyyourtime.online@gmail.com">enjoyyourtime.online@gmail.com</a> para solicitar la eliminaci&oacute;n; respondemos en un plazo de 30 d&iacute;as.</li>
+</ul>
+<p><a href="#deletion">Data deletion (English)</a></p>
+
+<h3>10. Cambios</h3>
+<p>Los cambios en esta pol&iacute;tica se publicar&aacute;n en esta p&aacute;gina.</p>
+
+<h3>11. Contacto</h3>
+<p>Enjoy your Time &mdash; <a href="mailto:enjoyyourtime.online@gmail.com">enjoyyourtime.online@gmail.com</a></p>
+<p><a href="#en">Read in English &uarr;</a></p>
+</section>
+</main>
+<footer>&copy; 2026 Enjoy your Time</footer>
+</body>
+</html>
