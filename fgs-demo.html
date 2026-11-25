@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PetEye - Camera mode foreground service demo</title>
+<style>body{margin:0;font-family:system-ui,Segoe UI,Roboto,sans-serif;background:#0e1514;color:#ecf3f1;text-align:center;padding:24px}video{max-width:100%;max-height:80vh;border-radius:12px}p{max-width:640px;margin:12px auto;color:#9db0ab}</style>
+</head>
+<body>
+<h1>PetEye - Camera mode</h1>
+<p>The user starts Camera mode from the app. The foreground service (types camera + microphone) keeps the old phone reachable while the app is in the background, showing an ongoing notification "PetEye camera active · 1 person watching". The camera and microphone are only opened while a viewer is connected.</p>
+<video src="fgs-demo.mp4" controls autoplay muted loop playsinline></video>
+</body>
+</html>
